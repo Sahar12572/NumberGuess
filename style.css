@@ -2,11 +2,11 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background: linear-gradient(to bottom right, #fff1f8, #e0f7fa);
 }
 
 /* Game container */
@@ -15,49 +15,55 @@ html, body {
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    background-color: #0084ac;
-    border-radius: 10px;
-    box-shadow: 0 0 15px #ffffff;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 90%;
+    border: 3px dashed #ffd6e8;
 }
 
 /* Heading */
 h1 {
-    color: #e78fe3;
+    color: #ff92ae;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
 }
 
 /* Input field */
 input[type="number"] {
     font-size: 1.5rem;
     padding: 10px;
-    width: 80px;
-    text-align: right;
-    border: 2px solid rgb(174, 98, 236);
-    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid #b5ead7;
+    border-radius: 10px;
+    background-color: #f0fff8;
+    color: #333;
     margin-bottom: 15px;
 }
 
 /* Button */
 button {
-    font-size: 1rem;
-    padding: 10px 20px;
-    background-color: rgb(174, 98, 236);
-    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    padding: 10px 25px;
+    background-color: #c5dfff;
+    color: #333;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
-    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(100, 100, 100, 0.1);
+    transition: all 0.3s ease;
 }
 
 button:hover {
-    background-color: #128aaf;
+    background-color: #a2e4f2;
 }
 
 /* Feedback text */
 #feedback {
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 1.2rem;
-    font-weight: bold;
-    color: #ffffff;
+    font-weight: 500;
+    color: #6c757d;
 }
